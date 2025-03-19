@@ -1,9 +1,9 @@
 <template>
     <p>Reaction time - {{ score }} ms</p>
-    <div v-if="score < 250">
+    <div v-if="score < 500">
         <p class="result">OMG! You are god of catching</p>
     </div>
-    <div v-else-if="score > 250 && score < 500">
+    <div v-else-if="score > 500 && score < 700">
         <p class="result">Nice catch!</p>
     </div>
     <div v-else>
