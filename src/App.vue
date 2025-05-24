@@ -48,11 +48,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #7532a2;
   margin-top: 60px;
 }
 button {
-  background: #2c3e50;
+  background: #7532a2;
   color: #fff;
   border: none;
   padding: 8px 16px;
